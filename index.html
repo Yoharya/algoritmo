@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercícios com while</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Exercícios com while</h1>
+      <p>Três programas em JavaScript que repetem a operação com <code>while</code> e leem os números com <code>for</code>. Escolha um exercício e responda às perguntas que aparecerem.</p>
+    </header>
+
+    <section class="exercicios">
+      <article>
+        <h2>Exercício 1 &ndash; Fácil</h2>
+        <p>Soma de três números, repetida quantas vezes você quiser.</p>
+        <button type="button" id="btn1">Executar exercício 1</button>
+      </article>
+      <article>
+        <h2>Exercício 2 &ndash; Médio</h2>
+        <p>Soma e média de uma quantidade de números que você escolhe.</p>
+        <button type="button" id="btn2">Executar exercício 2</button>
+      </article>
+      <article>
+        <h2>Exercício 3 &ndash; Difícil</h2>
+        <p>Soma, média, maior e menor número, com validação das entradas.</p>
+        <button type="button" id="btn3">Executar exercício 3</button>
+      </article>
+    </section>
+
+    <section class="saida-area" aria-labelledby="titulo-saida">
+      <div class="saida-topo">
+        <h2 id="titulo-saida">Resultado</h2>
+        <button type="button" id="limpar" class="secundario">Limpar</button>
+      </div>
+      <pre id="saida" aria-live="polite">Nenhum exercício executado ainda.</pre>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
